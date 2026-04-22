@@ -106,7 +106,7 @@
     <p class="subtitle">Cuéntame tu caso y te brindaré la mejor orientación legal.</p>
 
     <!-- FORMULARIO FORMSpree -->
-    <form action="https://formspree.io/f/mwvaryby" method="POST" class="form">
+    <form action="https://formspree.io/f/mwvaryby" method="POST" class="form" id="form">
 
       <div class="row">
         <input type="text" name="nombre" placeholder="Nombre completo" required>
@@ -136,6 +136,12 @@
 <a href="https://wa.me/573104997268" class="whatsapp" target="_blank">
   <i class="fab fa-whatsapp"></i>
 </a>
-
+<script>
+document.getElementById("form").addEventListener("submit", function() {
+  setTimeout(function() {
+    window.location.href = "https://marazeinet.github.io/leadingLegalMZ/gracias.html";
+  }, 1200);
+});
+</script>
 </body>
 </html>
