@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MZ Legal</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- NAV -->
+<header class="header">
+  <nav class="nav container">
+    <div class="logo"><span>MZ</span> Legal</div>
+
+    <ul class="menu">
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#beneficios">Por qué elegirme</a></li>
+      <li><a href="#contacto" class="btn-outline">Solicitar asesoría</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="overlay"></div>
+
+  <div class="hero-content container">
+    <h1>Asesoría Legal<br>Profesional</h1>
+
+    <div class="divider"></div>
+
+    <p>Soluciones claras, confidenciales y efectivas para tu caso.</p>
+
+    <a href="#contacto" class="btn-primary">Solicitar asesoría</a>
+  </div>
+</section>
+
+<!-- SERVICIOS -->
+<section id="servicios" class="section light">
+  <div class="container">
+    <h2 class="title">Servicios</h2>
+
+    <div class="grid-3">
+      <div class="card">
+        <i class="fas fa-scale-balanced"></i>
+        <h3>Derecho Civil</h3>
+        <p>Asesoría en conflictos legales y soluciones prácticas.</p>
+      </div>
+
+      <div class="card">
+        <i class="fas fa-file-contract"></i>
+        <h3>Contratos</h3>
+        <p>Redacción, revisión y acompañamiento legal.</p>
+      </div>
+
+      <div class="card">
+        <i class="fas fa-comments"></i>
+        <h3>Consultas</h3>
+        <p>Orientación clara para tomar decisiones seguras.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BENEFICIOS -->
+<section id="beneficios" class="section">
+  <div class="container">
+    <h2 class="title">¿Por qué elegirme?</h2>
+
+    <div class="grid-4">
+      <div class="benefit">
+        <i class="fas fa-user"></i>
+        <p>Atención personalizada</p>
+      </div>
+
+      <div class="benefit">
+        <i class="fas fa-shield-alt"></i>
+        <p>Confidencialidad total</p>
+      </div>
+
+      <div class="benefit">
+        <i class="fas fa-clock"></i>
+        <p>Respuesta rápida</p>
+      </div>
+
+      <div class="benefit">
+        <i class="fas fa-bullseye"></i>
+        <p>Enfoque en resultados</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="section light">
+  <div class="container contact">
+
+    <h2 class="title">Solicita tu asesoría</h2>
+    <p class="subtitle">Cuéntame tu caso y te brindaré la mejor orientación legal.</p>
+
+    <!-- FORMULARIO FORMSpree -->
+    <form action="https://formspree.io/f/mwvaryby" method="POST" class="form">
+
+      <div class="row">
+        <input type="text" name="nombre" placeholder="Nombre completo" required>
+        <input type="email" name="email" placeholder="Correo electrónico" required>
+      </div>
+
+      <textarea name="mensaje" placeholder="Cuéntame tu caso" required></textarea>
+
+      <input type="hidden" name="_subject" value="Nuevo cliente - Landing Legal">
+      <input type="text" name="_gotcha" style="display:none">
+
+      <button type="submit" class="btn-primary">Enviar solicitud</button>
+
+    </form>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© 2026 MZ Legal. Todos los derechos reservados.</p>
+</footer>
+
+<!-- WHATSAPP -->
+<a href="https://wa.me/573104997268" class="whatsapp" target="_blank">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+</body>
+</html>
